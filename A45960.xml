@@ -1,0 +1,541 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Momus elencticus, or, A light come-off upon that serious piece of drollerie presented by the Vice Chancellor of Oxon ...</title>
+            <author>Ireland, Thomas, d. 1676.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1654</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 12 KB of XML-encoded text transcribed from 5 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A45960</idno>
+            <idno type="STC">Wing I294</idno>
+            <idno type="STC">ESTC R6311</idno>
+            <idno type="EEBO-CITATION">13222197</idno>
+            <idno type="OCLC">ocm 13222197</idno>
+            <idno type="VID">98544</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A45960)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 98544)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 422:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>Momus elencticus, or, A light come-off upon that serious piece of drollerie presented by the Vice Chancellor of Oxon ...</title>
+                  <author>Ireland, Thomas, d. 1676.</author>
+               </titleStmt>
+               <extent>7 p.   </extent>
+               <publicationStmt>
+                  <publisher>s.n.,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1654]</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Caption title.</note>
+                  <note>Satirical verses on Vice Chancellor John Owen and others attributed to T.I. [i.e. Thomas Ireland]. Cf. BM.</note>
+                  <note>Place and date of publication from Wing.</note>
+                  <note>Reproduction of original in Huntington Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Owen, John, 1616-1683.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2009-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2009-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-03</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2011-03</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <body>
+         <div type="ballad">
+            <pb facs="tcp:98544:1"/>
+            <pb n="1" facs="tcp:98544:1"/>
+            <head>Momus Elencticus</head>
+            <head type="sub">
+               <hi>Or a light Come-off upon that ſerious piece of Drollerie preſented by the
+Vice Chancellor of</hi> Oxon <hi>in the name of all his Mirmi<g ref="char:EOLhyphen"/>dons at</hi> Whitehall, <hi>to expell
+the Melancholy of the court, and to tickle its gizzard with a Landskip of dancing Fryars to their
+own Muſick and Numbers.</hi>
+            </head>
+            <lg>
+               <l>STrike up my dull Muſe, and twang me a dity,</l>
+               <l>In the elephant ſtrain of the <hi>
+                     <g ref="char:V">Ʋ</g>niver—ſitty,</hi>
+               </l>
+               <l>Tis a tuneable age, and all Trades grow witty,</l>
+               <l>
+                  <hi>Room for Cuckolds.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>Heads</hi> of all <hi>Houſes</hi> with their privy Members,</l>
+               <l>Have woond up their Fancies long rak'd in the embers,</l>
+               <l>To drown all the ſquibs of our blazing Novembers</l>
+               <l>
+                  <hi>Whip S<hi rend="sup">r</hi>. Davy</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>But wot you for what this clutter was made?</l>
+               <l>'Twas all to be praiſe the ſucceſs that we had</l>
+               <l>The Spirit ſo ſpurr'd that it almoſt turn'd Jade</l>
+               <l>
+                  <hi>Tytere tu boyes.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>So up they pickpack'd in a long checkred crue,</l>
+               <l>In ſeveral dreſſes of ſeveral hue,</l>
+               <l>Old <hi>Coventry Doctors</hi> and Maſters as blue</l>
+               <l>Hap at a venture</l>
+            </lg>
+            <pb n="2" facs="tcp:98544:2"/>
+            <lg>
+               <l>Some <hi>Latin,</hi> ſome <hi>Greek,</hi> but they ſtrein'd hard,</l>
+               <l>Till they were out-thrown by the old Brittiſh Bard,</l>
+               <l>The French (with a pox) had almoſt all mart'd</l>
+               <l>Stand at your diſtance.</l>
+            </lg>
+            <lg>
+               <l>The reſt in plain Engliſh brought each man his hymn,</l>
+               <l>As his fancy godſnig: drew up to the brim,</l>
+               <l>There's ſcarce an old Ballad but has loſt a limb,</l>
+               <l>March on Taylors.</l>
+            </lg>
+            <lg>
+               <l>The firſt of th' Artillery that did give fire</l>
+               <l>Was a great Gun of <hi>Chriſt-Church</hi> the bigg'ſt of the Quire,</l>
+               <l>A welch man I wi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> by his gate and attire</l>
+               <l>Well a go to then</l>
+            </lg>
+            <lg>
+               <l>The Vice Chencellor (bear back) a word ſtill in faſhion,</l>
+               <l>A Doctor at leaſt of the lateſt Creation,</l>
+               <l>The cutted Analyſis of Reformation</l>
+               <l>Pandite Pye cruſt.</l>
+            </lg>
+            <lg>
+               <l>He gap'd, and he voyded a tedious Epiſtle,</l>
+               <l>Wherein if you finde one grain of ſalt, whiſtle,</l>
+               <l>But 'twas <hi>(ſuo more)</hi> an Aſs mumbling a thiſtle.</l>
+               <l>
+                  <hi>Salve tu quoque.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Up laſt the Steepl his Deanſhip did climbe,</l>
+               <l>In a <hi>Hogen Mogen</hi> pittifull Rythme,</l>
+               <l>Like the Chimes of <hi>Carfax</hi> without tune or time</l>
+               <l>
+                  <hi>Caeſare fultus.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Had his wit been at the Univerſity charge,</l>
+               <l>As well as his journey to <hi>Whitehall</hi> in a Barge,</l>
+               <l>The expence of his brain had been much more large,</l>
+               <l>Friend in a corner</l>
+            </lg>
+            <pb n="3" facs="tcp:98544:2"/>
+            <lg>
+               <l>He cloſ'd them at laſt with a great deal of doe</l>
+               <l>With much rubbling and reaching and bodgelling too,</l>
+               <l>A thanks-giving Sermon we expect to be due</l>
+               <l>Aglogh whee Reglous</l>
+            </lg>
+            <lg>
+               <l>The next that offerd to proffer was <hi>Hoyl,</hi>
+               </l>
+               <l>A tranſplanted root from the low Countrey ſoyl,</l>
+               <l>That at <hi>Rome</hi>'s proud gates would never turn tayl,</l>
+               <l>Hold a blow <hi>Jenkin.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The Pope, and his Crown, and Catholical glory</l>
+               <l>He kill'd, and layd out in aſhes before you,</l>
+               <l>Nay and more, he ſet fire on Purgatory</l>
+               <l>Countrey man quarter</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Altitonant Wall</hi> next ſadles <hi>Peg-Aſſus,</hi>
+               </l>
+               <l>And fetcht bloud in three tongues from the ſhins of <hi>Parnaſſus:</hi>
+               </l>
+               <l>He frisk'd as a man would ſay <hi>God bleſs us</hi>
+               </l>
+               <l>Enter praeſentor</l>
+            </lg>
+            <lg>
+               <l>The diſtillations of rain and peace</l>
+               <l>Had like to have melted <hi>Johannes</hi> his greaſe,</l>
+               <l>For joy that his Stipend was like to encreaſe</l>
+               <l>
+                  <gap reason="foreign">
+                     <desc>〈 in non-Latin alphabet 〉</desc>
+                  </gap>
+               </l>
+            </lg>
+            <lg>
+               <l>Then <hi>Langley</hi> the Maſter of <hi>Pembrok Colledg</hi>
+               </l>
+               <l>Prick'd up his ears full of heavenlified knowledg,</l>
+               <l>This was the ſpare wit almoſt of his whole Age</l>
+               <l>
+                  <hi>Parce tyroni.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>And he will revenge the <hi>Saints</hi> on the <hi>Pope</hi>
+               </l>
+               <l>Though this valour in him were paſt all our hope;</l>
+               <l>And threatens no leſſe than bloud faggot and rope</l>
+               <l>Have amongſt you blind harpers</l>
+            </lg>
+            <lg>
+               <l>Next <hi>Roberts</hi> of <hi>Jeſus</hi> that doubty good Card,</l>
+               <l>The principallity of her Countrey to ward</l>
+               <l>Tunes up her pipes in a double regard</l>
+               <l>O puddere he vaw!</l>
+            </lg>
+            <pb n="4" facs="tcp:98544:3"/>
+            <lg>
+               <l>Firſt her Latinity takes up a Page</l>
+               <l>To as little purpoſe as the Scots did engage,</l>
+               <l>At laſt the welch plood in her veins did aſſwage</l>
+               <l>Welſa whee humble Bee</l>
+            </lg>
+            <lg>
+               <l>But I leave you, Learn'd Sir, and your mountanious Song,</l>
+               <l>Leſt I doe you (as you your Colledg) much wrong,</l>
+               <l>To the Devil, the Father and founder of the tongue</l>
+               <l>
+                  <hi>Vale Tom piper.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Next <hi>Savage</hi> and <hi>Zouch</hi> ſmall ſtreins did conceive,</l>
+               <l>And their Muſes and mountains did ſeem much to heave,</l>
+               <l>The <hi>Peace</hi> they ſay's made, and ſo they took leave</l>
+               <l>Green gooſe and cheeſe-cake.</l>
+            </lg>
+            <lg>
+               <l>Next <hi>Button</hi> and <hi>Say,</hi> and <hi>G.O.</hi> did meet</l>
+               <l>In Hebrew well engliſh'd and lattin ſhod feet,</l>
+               <l>And made a hard ſhift to bedawb a half ſheet</l>
+               <l>
+                  <hi>Nicholas Nemo.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In Heroical Buskins <hi>J. Maplet</hi> appears,</l>
+               <l>In hard phraſes and axioms dreſt up to the ears,</l>
+               <l>As though hee'd mount over the tops of the ſphears,</l>
+               <l>
+                  <hi>Lingua quo vadis.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The ſight of his Doctorſhip in black and white</l>
+               <l>Put all the ſhips and their thunder to flight,</l>
+               <l>His <hi>Opium</hi> has wrapp'd up the wars in long night</l>
+               <l>
+                  <hi>Valde probatum.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Jo. Harmarus</hi> then comes in by the teeth,</l>
+               <l>O had his theam been a good chine of beef,</l>
+               <l>He had courſ'd him the field paſt any relief!</l>
+               <l>
+                  <hi>Mounte Cabal boyes</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The next that purſu'd the tragical Doctor,</l>
+               <l>Was <hi>Hexameter S.C.</hi> the <hi>New Colledg Proctor,</hi>
+               </l>
+               <l>Had not <hi>Belgia</hi> been quiet tis doubt he'd have knockt her</l>
+               <l>
+                  <hi>Ritu Bocardo</hi>
+               </l>
+            </lg>
+            <pb n="5" facs="tcp:98544:3"/>
+            <lg>
+               <l>
+                  <hi>Thom. Lockey</hi> of <hi>Chriſt-Church,</hi> and <hi>Terrent</hi> likewiſe</l>
+               <l>Their wiſhes and ſighs propound to our eyes,</l>
+               <l>And <hi>Bathurſt</hi> of <hi>Trinity</hi> ſeems to adviſe</l>
+               <l>Gently good <hi>Joan</hi> th<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Jones</hi> and <hi>Everard, E. H.</hi> and <hi>Quin,</hi>
+               </l>
+               <l>
+                  <hi>Dick Bryan</hi> and <hi>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>agſhaw</hi> god
+give you good din,</l>
+               <l>
+                  <hi>Thom. Cole</hi> and <hi>J. Ward</hi> come ambling all in</l>
+               <l>
+                  <hi>Hey for our Town!</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Will. Carpenter</hi> too a Maſter of Art,</l>
+               <l>Whence his Greek proceeded it puzles my heart,</l>
+               <l>But he writ a good hand and his Authour was ſmart</l>
+               <l>
+                  <hi>Inde praetereo.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>The <hi>Students</hi> and <hi>Commoners</hi> like horſe and foot,</l>
+               <l>Advanc'd in their ranks and came bodily to't,</l>
+               <l>For the youngſters alas knew their <hi>Tutors</hi> could do't</l>
+               <l>
+                  <hi>Jure divino.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Much pumping there was and a great deal of puther</l>
+               <l>And many in zeal rode ore one another,</l>
+               <l>But more gave falſe fire and their valour did ſmother</l>
+               <l>
+                  <hi>Cauſa malignans.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In couples they tyed the two Nations at laſt</l>
+               <l>And bound up the <hi>Amneſty</hi> in ſhackles faſt,</l>
+               <l>And the Hollanders home to their Harbours they chaſ'd</l>
+               <l>Fadingdo dincktido.</l>
+            </lg>
+            <lg>
+               <l>Only L. <hi>Atterbury</hi> to heighten his ſtrein</l>
+               <l>(And there I confeſs he tickled the vein)</l>
+               <l>Thanks the Protector inſtead of God for the rein</l>
+               <l>
+                  <hi>Ritu v<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>catum.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>Some fellowes there were, though they thought they had none,</l>
+               <l>To ſave their bacon penn'd many a ſmooth ſong</l>
+               <l>VVhich I hope they have repented or will doe ere long</l>
+               <l>
+                  <hi>Cave Caveto.</hi>
+               </l>
+            </lg>
+            <pb n="6" facs="tcp:98544:4"/>
+            <lg>
+               <l>
+                  <hi>Hary Berkhead</hi> (pox on't) what mak'ſt thou in the pack?</l>
+               <l>VVith a Comment like a Pedlar tru<gap reason="illegible" resp="#OXF" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>'d up at
+thy back?</l>
+               <l>Their ſma<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>l drink will never agree with thy
+Sack</l>
+               <l>
+                  <hi>Paribus Impar.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>In ſtone-dead Engliſh the reſt did advance,</l>
+               <l>Only one packet brought letters from <hi>France;</hi>
+               </l>
+               <l>And two in welch meaſures the morrice did dance</l>
+               <l>Tallerie whisko.</l>
+            </lg>
+            <lg>
+               <l>And firſt <hi>R.B.</hi> of <hi>Trinity</hi> mutter'd</l>
+               <l>In old faſhion Syllables ſome what was ſputter'd</l>
+               <l>He call'd him <hi>Auguſtus</hi> and away he flutter'd</l>
+               <l>Lank<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ri down dilly.</l>
+            </lg>
+            <lg>
+               <l>Next <hi>Brooks</hi> the Principle of <hi>Saint Mary Hall,</hi>
+               </l>
+               <l>Made my Lord ſtart, though he had never a fall,</l>
+               <l>But he quickly pul<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>'d in his Muſe, brows,
+horns and all</l>
+               <l>Mouſe in a cheeſe-vate.</l>
+            </lg>
+            <lg>
+               <l>Next <hi>Gorges</hi> of <hi>Johns</hi> his Thalia did reel,</l>
+               <l>Put his hand in his pocket and ſwore bloud and ſteel,</l>
+               <l>But thanks be given his fiſt no man did feel.</l>
+               <l>Mercifull <hi>Atropos;</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Ned Bagſhaw</hi> agen upon the foe fell,</l>
+               <l>And like Corrector of the Preſs compare'd it ſo well,</l>
+               <l>That he left his Highneſs without paralel,</l>
+               <l>What can a man doe?</l>
+            </lg>
+            <lg>
+               <l>Next <hi>Stanly</hi> brought what his friends could indite,</l>
+               <l>And <hi>Humbarſton</hi> added, though it were but a mite,</l>
+               <l>And <hi>Hatley</hi> inflam'd call'd him <hi>Mars</hi> his huge knight,</l>
+               <l>Con<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ter me that verſe.</l>
+            </lg>
+            <lg>
+               <l>But now my <hi>Cleavelandified Mathew</hi> trowls in</l>
+               <l>VVith a mouth full of draggons that poyſon'd his skin,</l>
+               <l>But 'twas ſaid his bumbaſt Muſe was on the pin</l>
+               <l>Rouſty Ca<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ouſty.</l>
+            </lg>
+            <pb n="7" facs="tcp:98544:4"/>
+            <lg>
+               <l>In whirlwindes and earth quakes he punn'd and made faces,</l>
+               <l>In Porcupine's quils and Cyclopick traces,</l>
+               <l>He frisk'd and he winced in the tribe of Many-Aſſes</l>
+               <l>
+                  <hi>Mouncy Irouncy.</hi>
+               </l>
+            </lg>
+            <lg>
+               <l>He ſo ſmoak'd and ſo ſtunck in his furious gears,</l>
+               <l>Till the Alderman's fur flew over his ears,</l>
+               <l>If he catch him hee'le give him a penniworth of pears</l>
+               <l>Hares head and Jibblets</l>
+            </lg>
+            <lg>
+               <l>Some Readers have conſtru'd this gallant I trow</l>
+               <l>For the dainty fine ſnip ſnap ſhould fore run the ſhew,</l>
+               <l>Though the worthies have tipp'd him quite out of their row</l>
+               <l>
+                  <hi>Plangite</hi> Make ſport</l>
+            </lg>
+            <lg>
+               <l>Next <hi>Hodges</hi> dares promiſe the age ſhall be gold,</l>
+               <l>But I prethee good <hi>Student</hi> doſt hear? Say and hold.</l>
+               <l>For the dread of that Prophecy makes my heart cold</l>
+               <l>
+                  <hi>Salve</hi> ſound taxes.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Dick Page</hi> with Levies and Subſidies next,</l>
+               <l>And the Publick faith tortures the text,</l>
+               <l>But theſe for long time have the people ſore vext</l>
+               <l>No more of that ſtring.</l>
+            </lg>
+            <lg>
+               <l>The reſt are not worth the continuing the chaſe,</l>
+               <l>Only <hi>Jo. Ford</hi> forced ſmiles in my face,</l>
+               <l>For inſtead of rythming he fell to ſay grace</l>
+               <l>Farewel good tokens.</l>
+            </lg>
+            <lg>
+               <l>
+                  <hi>Len. Leichfield</hi> too ventures t' flame in the reare,</l>
+               <l>Yet how he turn'd poet pray hold a blow there,</l>
+               <l>But he quickly found friends, being Beadle Eſquire</l>
+               <l>
+                  <hi>Plaudite</hi> fat gut.</l>
+            </lg>
+            <lg>
+               <l>Thus their ſubject was high and their eloquence mighty,</l>
+               <l>Pray Gentiles draw nigh here ſhall nothing affright you,</l>
+               <l>The Squib's at an end, and ſo Mounſiers good night t' you</l>
+               <l>
+                  <hi>Domine</hi> E<gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s.</l>
+            </lg>
+            <pb facs="tcp:98544:5" rendition="simple:additions"/>
+            <pb facs="tcp:98544:5"/>
+         </div>
+      </body>
+   </text>
+</TEI>
